@@ -33,7 +33,7 @@ func ConnectDB() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	
+
 	config := &Config{
 		Host:     os.Getenv("DB_HOST"),
 		Port:     os.Getenv("DB_PORT"),
